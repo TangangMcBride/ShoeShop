@@ -18,9 +18,9 @@ function App() {
     sx={{
       background: '#000'
     }}
-   >
-    <Appbar/>
-    <Button variant="contained">Hello World</Button>
+   ><Appbar></Appbar>
+   
+
 
    </Container>
 

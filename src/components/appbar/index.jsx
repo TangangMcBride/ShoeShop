@@ -8,7 +8,7 @@ const Appbar = () => {
     const medium = useMediaQuery(theme.breakpoints.down('md'));
     return (
     <div>
-      {medium ? <Mobilenavbar /> : <Desktopnavbar/>}
+      {medium ? <Mobilenavbar /> : <Desktopnavbar type = 'row'/>}
 
     </div>  );
 }
